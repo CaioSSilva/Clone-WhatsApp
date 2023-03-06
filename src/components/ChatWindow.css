@@ -6,7 +6,6 @@
 .chatWindow-header{
     display: flex;
     height: 60px;
-    border-bottom: 1px solid #ccc;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,7 +23,7 @@
 }
 .chatWindow-name{
     font-size: 17px;
-    color: black;
+    color: white;
 }
 .chatWindow-headerbuttons{
     display: flex;
@@ -45,9 +44,10 @@
 .chatWindow-body{
     flex: 1;
     overflow-y: auto;
-    background-color: #e5ddd5;
+    background-color: #111b21;
     background-position: top;
-    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    background-image: url('https://wallpaperaccess.com/full/2224368.png');
+    background-size: contain;
     padding: 20px 30px;
 }
 .chatWindow-body::-webkit-scrollbar{
@@ -74,10 +74,10 @@
     height: 40px;
     border: 0;
     outline: 0;
-    background-color:#fff;
+    background-color:#2a3942;
     border-radius: 20px;
     font-size:15px;
-    color: #4a4a4a;
+    color: white;
     padding-left: 15px;
 }
 .chatWindow-pos{
@@ -94,6 +94,7 @@
 aside.emoji-picker-react{
     width: 100% !important; 
     background: none !important;
+    border: none !important
 }
 .emoji-picker-react .emoji-group:before{
     background: none !important;

@@ -5,8 +5,8 @@
     text-align: center;
     align-items: center;
     height: 100%;
-    border-bottom: 6px solid #4adf83;
-    background-color: #f8f9fa;
+    border-bottom: 6px solid #008069;
+    background-color: #222e35;
 }
 .ChatIntro img{
     width: 250px;
@@ -14,13 +14,13 @@
 }
 .ChatIntro h1{
     font-size: 32px;
-    color: #525252;
+    color: #dddddd;
     font-weight: normal;
 
 }
 .ChatIntro h2{
     font-size:14px;
-    color: #777;
+    color: #99aaaa;
     font-weight: normal;
 
 }

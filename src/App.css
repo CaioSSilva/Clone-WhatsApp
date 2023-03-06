@@ -1,6 +1,6 @@
 :root{
-    --background-color: #d2dbdc;
-    --background-color-alternative: #ededed;
+    --background-color: #222e35;
+    --background-color-alternative: #111b21;
 }
 *{
     box-sizing: border-box;
@@ -13,14 +13,14 @@ body{
 .app-window{
     display: flex;
     height: 100vh;
-    background-color: var(--background-color-alternative);
+    background-color: var(--background-color);
 }
 .side-bar{
     width: 35%;
     max-width: 415px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid#ddd;
+    border-right: 1px solid#4e4e4e;
 }
 header {
     height: 60px;
@@ -48,12 +48,12 @@ header {
     cursor: pointer;
 }
 .search{
-    background-color: #f6f6f6 ;
-    border-bottom: 1px solid #eee;
+    background-color: #111b21;
     padding: 5px 15px;
+
 }
 .search-input{
-    background-color: white;
+    background-color: #222e35;
     height: 40px;
     border-radius: 20px;
     display: flex;
@@ -66,10 +66,11 @@ header {
     outline: 0;
     background-color: transparent;
     margin-left: 10px;
+    color: white;
 }
 .chatlist{
     flex: 1;
-    background-color: white;
+    background-color: #111b21 ;
     overflow-y: auto;
 }
 .chatlist::-webkit-scrollbar{

@@ -23,7 +23,7 @@ export default function Messageitem({data, user}) {
     : 'flex-end'}}>
         <div className='message-item'style={{
       backgroundColor: user.id === data.autor ? '#fff'
-    : '#dcf8c6'}}>
+    : '#005c4b'}}>
             <div className='message-text'>
               {data.body}
             </div>
