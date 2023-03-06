@@ -1,0 +1,27 @@
+.login{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.login button{
+    padding: 15px;
+    border: #77d7c8 2px solid ;
+    color: #128c7e;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50vh;
+}
+.login button:hover{
+    background: #66b8ab;
+    border-color: #66b8ab;
+    color: #fff;
+}
+.login a {
+    color: #128c7e;
+    
+}
