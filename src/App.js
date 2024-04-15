@@ -20,8 +20,7 @@ export default function App() {
   const [user, setuser] = useState({
     id: "E77kt8N5JbXjHINNx3TQWm8iw9m1",
     name: "Caio Souza",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1600164413453000705/D2QbXpoF_400x400.jpg",
+    avatar: "https://avatars.githubusercontent.com/u/55932355?v=4",
   });
 
   /*
